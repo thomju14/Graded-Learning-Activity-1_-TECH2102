@@ -6,4 +6,7 @@ CREATE TABLE `student` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 ALTER TABLE `student`
-ADD PRIMARY KEY (`ID`);
+DELETE PRIMARY KEY (`ID`) VALUES('59');
+
+
+INSERT INTO `students`.`student` (`ID`, `student_name`, `student_number`, `student_age`) VALUES ('21', 'Mark', '23422', '30');
